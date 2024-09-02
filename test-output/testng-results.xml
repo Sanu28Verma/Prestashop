@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-24T23:55:51 IST" name="Default suite" finished-at="2024-08-24T23:56:47 IST" duration-ms="55325">
+  <suite started-at="2024-09-02T01:37:51 IST" name="MasterTestSuite" finished-at="2024-09-02T01:38:56 IST" duration-ms="65209">
     <groups>
     </groups>
-    <test started-at="2024-08-24T23:55:51 IST" name="Default test" finished-at="2024-08-24T23:56:47 IST" duration-ms="55325">
+    <test started-at="2024-09-02T01:37:51 IST" name="Test" finished-at="2024-09-02T01:38:56 IST" duration-ms="65209">
       <class name="testCases.TC_01_Shopping">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_01_Shopping@1ca3b418]" started-at="2024-08-24T23:55:51 IST" name="setup" finished-at="2024-08-24T23:55:57 IST" duration-ms="5224" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_01_Shopping@75d3a5e0]" started-at="2024-09-02T01:37:51 IST" name="setup" finished-at="2024-09-02T01:37:59 IST" duration-ms="8119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_Shopping()[pri:1, instance:testCases.TC_01_Shopping@1ca3b418]" started-at="2024-08-24T23:55:57 IST" name="verify_Shopping" finished-at="2024-08-24T23:56:13 IST" duration-ms="16032" status="PASS">
+        <test-method signature="verify_Shopping()[pri:1, instance:testCases.TC_01_Shopping@75d3a5e0]" started-at="2024-09-02T01:37:59 IST" name="verify_Shopping" finished-at="2024-09-02T01:38:09 IST" duration-ms="9909" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Shopping -->
-        <test-method signature="verify_Filter()[pri:2, instance:testCases.TC_01_Shopping@1ca3b418]" started-at="2024-08-24T23:56:13 IST" name="verify_Filter" finished-at="2024-08-24T23:56:19 IST" depends-on-methods="testCases.TC_01_Shopping.verify_Shopping" duration-ms="6793" status="PASS">
+        <test-method signature="verify_Filter()[pri:2, instance:testCases.TC_01_Shopping@75d3a5e0]" started-at="2024-09-02T01:38:09 IST" name="verify_Filter" finished-at="2024-09-02T01:38:24 IST" depends-on-methods="testCases.TC_01_Shopping.verify_Shopping" duration-ms="15506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Filter -->
-        <test-method signature="verify_Add()[pri:3, instance:testCases.TC_01_Shopping@1ca3b418]" started-at="2024-08-24T23:56:19 IST" name="verify_Add" finished-at="2024-08-24T23:56:30 IST" duration-ms="10755" status="PASS">
+        <test-method signature="verify_Add()[pri:3, instance:testCases.TC_01_Shopping@75d3a5e0]" started-at="2024-09-02T01:38:24 IST" name="verify_Add" finished-at="2024-09-02T01:38:37 IST" duration-ms="12645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Add -->
-        <test-method signature="verify_Personal_Information()[pri:4, instance:testCases.TC_01_Shopping@1ca3b418]" started-at="2024-08-24T23:56:30 IST" name="verify_Personal_Information" finished-at="2024-08-24T23:56:47 IST" duration-ms="16294" status="PASS">
+        <test-method signature="verify_Personal_Information()[pri:4, instance:testCases.TC_01_Shopping@75d3a5e0]" started-at="2024-09-02T01:38:37 IST" name="verify_Personal_Information" finished-at="2024-09-02T01:38:56 IST" duration-ms="18868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Personal_Information -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_01_Shopping@1ca3b418]" started-at="2024-08-24T23:56:47 IST" name="teardown" finished-at="2024-08-24T23:56:47 IST" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_01_Shopping@75d3a5e0]" started-at="2024-09-02T01:38:56 IST" name="teardown" finished-at="2024-09-02T01:38:56 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC_01_Shopping -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- MasterTestSuite -->
 </testng-results>
