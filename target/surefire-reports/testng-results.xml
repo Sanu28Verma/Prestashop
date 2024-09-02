@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-02T18:59:10 IST" name="MasterTestSuite" finished-at="2024-09-02T19:00:07 IST" duration-ms="57406">
+    <groups>
+    </groups>
+    <test started-at="2024-09-02T18:59:10 IST" name="Test" finished-at="2024-09-02T19:00:07 IST" duration-ms="57406">
+      <class name="testCases.TC_01_Shopping">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_01_Shopping@7b36aa0c]" started-at="2024-09-02T18:59:10 IST" name="setup" finished-at="2024-09-02T18:59:19 IST" duration-ms="8850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Shopping()[pri:1, instance:testCases.TC_01_Shopping@7b36aa0c]" started-at="2024-09-02T18:59:19 IST" name="verify_Shopping" finished-at="2024-09-02T18:59:28 IST" duration-ms="9018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Shopping -->
+        <test-method signature="verify_Filter()[pri:2, instance:testCases.TC_01_Shopping@7b36aa0c]" started-at="2024-09-02T18:59:28 IST" name="verify_Filter" finished-at="2024-09-02T18:59:38 IST" depends-on-methods="testCases.TC_01_Shopping.verify_Shopping" duration-ms="9606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Filter -->
+        <test-method signature="verify_Add()[pri:3, instance:testCases.TC_01_Shopping@7b36aa0c]" started-at="2024-09-02T18:59:38 IST" name="verify_Add" finished-at="2024-09-02T18:59:48 IST" duration-ms="10749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Add -->
+        <test-method signature="verify_Personal_Information()[pri:4, instance:testCases.TC_01_Shopping@7b36aa0c]" started-at="2024-09-02T18:59:48 IST" name="verify_Personal_Information" finished-at="2024-09-02T19:00:07 IST" duration-ms="18935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Personal_Information -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_01_Shopping@7b36aa0c]" started-at="2024-09-02T19:00:07 IST" name="teardown" finished-at="2024-09-02T19:00:07 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_01_Shopping -->
+    </test> <!-- Test -->
+  </suite> <!-- MasterTestSuite -->
+</testng-results>
